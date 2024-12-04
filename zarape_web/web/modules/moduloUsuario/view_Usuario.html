@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Empleados</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <script src="../../style/fontawesome-free-6.4.0-web/js/all.js" type="text/javascript"></script>
+    <link href="../../style/fontawesome-free-6.4.0-web/css/all.css" rel="stylesheet" type="text/css"/>
+    <script src="../../style/fontawesome-free-6.4.0-web/js/all.js" type="text/javascript"></script>
+
+
+<body>
+    <div id="divDetalle" class="row mt-2">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <span class="h3">Detalle de Empleado</span>
+                <span class="float-end">
+                    <button class="btn btn-sm btn-outline-danger float-end" id="btnSetDetalleVisible">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </span>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    
+                    <div class="col ms-4">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="form-floating">
+                                    <input id="txtIdEmpleado" type="text" class="form-control" placeholder="ID Empleado" readonly />
+                                    <label for="txtIdEmpleado">ID Empleado</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="form-floating">
+                                    <input id="txtIdPersona" type="text" class="form-control" placeholder="ID Persona" readonly />
+                                    <label for="txtIdPersona">ID Persona</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="form-floating">
+                                    <input id="txtIdUsuario" type="text" class="form-control" placeholder="ID Usuario" readonly />
+                                    <label for="txtIdUsuario">ID Usuario</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-4">
+                                <div class="form-floating">
+                                    <input id="txtNombrePersona" type="text" class="form-control" placeholder="Nombre:"/>
+                                    <label for="txtNombrePersona">Nombre:</label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-floating">
+                                    <input id="txtApellidoPersona" type="text" class="form-control text-end" placeholder="Apellidos: "/>
+                                    <label for="txtApellidoPersona">Apellidos: </label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-floating">
+                                    <input id="txtTelefono" type="text" class="form-control text-end" placeholder="Telefono: "/>
+                                    <label for="txtTelefono">Telefono: </label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-floating">
+                                    <input id="txtNombreUsuario" type="text" class="form-control text-end" placeholder="Nombre de Usuario: "/>
+                                    <label for="txtNombreUsuario">Nombre de Usuario: </label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-floating">
+                                    <input id="txtPasswordUser" type="password" class="form-control text-end" placeholder="Contraseña: "/>
+                                    <label for="txtPasswordUser">Contraseña: </label>
+                                </div>
+                            </div>
+                            </div>
+                        <div class="row mt-3">
+                            <div class="col-5">
+                                <div class="form-floating">
+                                    <select id="cmbSucursales" class="form-select"></select>
+                                    <label for="cmbSucursales">Sucursal</label>
+                                </div>
+                            </div>
+                            <div class="col-5">
+                                <div class="form-floating">
+                                    <select id="cmbCiudad" class="form-select"></select>
+                                    <label for="cmbCiudad">Ciudad</label>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-12">
+                                
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-12 text-center">
+                                <button class="btn btn-primary me-2" id="btnAddEmpleado">
+                                    <i class="fas fa-save"></i>
+                                    <span class="ml-2">Guardar</span>
+                                </button>
+                                <button class="btn btn-danger ms-2 me-2" id="btnDeleteEmpleado">
+                                    <i class="fas fa-trash"></i>
+                                    <span class="ml-2">Eliminar</span>
+                                </button>
+                                <button class="btn btn-outline-success ms-2" id="btnLimpiarFormulario">
+                                    <i class="fas fa-plus"></i>
+                                    <span class="ms-2">Nuevo</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div id="divCatalogo" class="row mt-2">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <span class="h3">Catalogo de Empleados</span>
+                <span>
+                    <button class="btn btn-outline-success ms-2" id="btnLimpiarMostrarFormulario">
+                        <i class="fas fa-plus"></i>
+                        <span class="ms-2">Nuevo</span>
+                    </button>
+                </span>
+            </div>
+            <div class="card-body">
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Apellidos</th>
+                        <th>Teléfono</th>
+                        <th>Nombre Usuario</th>
+                        <!--<th>Contraseña</th>-->
+                        <th>Ciudad</th>
+                        <th>Sucursal</th>
+                        <th>Estatus</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="tblEmpleados">
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+        <script src="controller_Usuario.js" type="text/javascript"></script>
+    </body>
+

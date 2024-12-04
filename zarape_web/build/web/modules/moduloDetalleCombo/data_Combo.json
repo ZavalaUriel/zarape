@@ -1,0 +1,56 @@
+[
+    {
+        "idAlimento": "1",
+        "idBebida": "1113",
+        "idCombo": "124A",
+        "nombreCombo": "Desayuno Mexicano",
+        "descripcion": "Chilaquiles acompañados de una refrescante limonada.",
+        "precio": "83.50",
+        "estatus":"Activo"
+    },
+    {
+        "idAlimento": "2",
+        "idBebida": "1114",
+        "idCombo": "124B",
+        "nombreCombo": "Tacos y Cerveza",
+        "descripcion": "Tacos al pastor servidos con una cerveza artesanal.",
+        "precio": "55.00",
+        "estatus":"Activo"
+    },
+    {
+        "idAlimento": "3",
+        "idBebida": "1115",
+        "idCombo": "124C",
+        "nombreCombo": "Enchiladas y Mojito",
+        "descripcion": "Enchiladas verdes acompañadas de un refrescante mojito.",
+        "precio": "86.00",
+        "estatus":"Activo"
+    },
+    {
+        "idAlimento": "4",
+        "idBebida": "1116",
+        "idCombo": "124D",
+        "nombreCombo": "Chiles en Nogada y Té Helado",
+        "descripcion": "Chiles en nogada servidos con té helado natural.",
+        "precio": "122.50",
+        "estatus":"Activo"
+    },
+    {
+        "idAlimento": "5",
+        "idBebida": "1117",
+        "idCombo": "124E",
+        "nombreCombo": "Tamales y Batido de Fresa",
+        "descripcion": "Deliciosos tamales acompañados de un batido cremoso de fresa.",
+        "precio": "34.00",
+        "estatus":"Activo"
+    },
+    {
+        "idAlimento": "6",
+        "idBebida": "1118",
+        "idCombo": "124F",
+        "nombreCombo": "Pozole y Agua Mineral",
+        "descripcion": "Sopa de pozole acompañada de agua mineral.",
+        "precio": "91.50",
+        "estatus":"Activo"
+    }
+]

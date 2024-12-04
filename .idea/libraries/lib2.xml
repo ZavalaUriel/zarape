@@ -1,0 +1,39 @@
+<component name="libraryTable">
+  <library name="lib2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jersey-container-grizzly2-servlet-3.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mysql-connector-java-8.0.26.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/simple-transport-6.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/grizzly-http-4.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jakarta.ws.rs-api-3.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/grizzly-framework-4.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jersey-container-simple-http-3.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/zxing-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jersey-client-3.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jersey-container-servlet-core-3.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jakarta.servlet-api-6.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jakarta.annotation-api-2.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/grizzly-http-servlet-4.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jersey-container-jdk-http-3.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jersey-common-3.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/simple-http-6.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/simple-common-6.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jersey-server-3.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hk2-locator-3.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gson-2.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hk2-utils-3.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hk2-api-3.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jersey-container-servlet-3.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/osgi-resource-locator-1.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/grizzly-http-server-4.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javassist-3.29.2-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jersey-hk2-3.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jakarta.validation-api-3.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jersey-container-grizzly2-http-3.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/aopalliance-repackaged-3.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jakarta.inject-api-2.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

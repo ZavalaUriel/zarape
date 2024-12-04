@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane style="-fx-background-color: #FEF3E2;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.luxdev.zarape.zarape1.controllerCombo">
+    <children>
+        <HBox alignment="CENTER">
+            <children>
+                <AnchorPane style="-fx-background-color: #FAAF08;">
+                    <children>
+                        <VBox alignment="CENTER" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="10.0">
+                            <children>
+                                <ImageView fx:id="btnHome" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@img/elzarapeLogo.png" />
+                                    </image>
+                                    <VBox.margin>
+                                        <Insets left="5.0" right="5.0" top="20.0" />
+                                    </VBox.margin>
+                                </ImageView>
+                                <ImageView fx:id="btnAlimento" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@img/alimentos.png" />
+                                    </image>
+                                    <VBox.margin>
+                                        <Insets left="5.0" right="5.0" top="6.0" />
+                                    </VBox.margin>
+                                </ImageView>
+                                <ImageView fx:id="btnBebida" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@img/bebidas.png" />
+                                    </image>
+                                    <VBox.margin>
+                                        <Insets left="5.0" right="5.0" top="6.0" />
+                                    </VBox.margin>
+                                </ImageView>
+                                <ImageView fx:id="btnCombo" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@img/combos.png" />
+                                    </image>
+                                    <VBox.margin>
+                                        <Insets left="5.0" right="5.0" top="6.0" />
+                                    </VBox.margin>
+                                </ImageView>
+                                <ImageView fx:id="btnSucursal" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@img/sucursales.png" />
+                                    </image>
+                                    <VBox.margin>
+                                        <Insets left="5.0" right="5.0" top="6.0" />
+                                    </VBox.margin>
+                                </ImageView>
+                                <ImageView fx:id="btnUsuario" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@img/empleado.png" />
+                                    </image>
+                                    <VBox.margin>
+                                        <Insets right="5.0" top="6.0" />
+                                    </VBox.margin>
+                                </ImageView>
+                                <ImageView fx:id="btnCliente" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@img/cliente.png" />
+                                    </image>
+                                    <VBox.margin>
+                                        <Insets bottom="20.0" />
+                                    </VBox.margin>
+                                </ImageView>
+                            </children>
+                        </VBox>
+                    </children>
+                    <HBox.margin>
+                        <Insets />
+                    </HBox.margin>
+                </AnchorPane>
+                <AnchorPane>
+                    <children>
+                        <ImageView fitHeight="700.0" fitWidth="700.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+                            <image>
+                                <Image url="@img/elzarapeLogo.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                    <HBox.margin>
+                        <Insets bottom="50.0" left="50.0" right="50.0" top="50.0" />
+                    </HBox.margin>
+                </AnchorPane>
+            </children>
+        </HBox>
+    </children>
+</AnchorPane>

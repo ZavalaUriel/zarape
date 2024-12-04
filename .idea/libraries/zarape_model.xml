@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="zarape_model">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/zarape_model/dist/zarape_model.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

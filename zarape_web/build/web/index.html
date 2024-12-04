@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="style/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="style/css/mycss.css" rel="stylesheet" type="text/css">
+</head>
+<body style="background-color: antiquewhite;">
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
+        <div class="card shadow-lg p-4 w-100" style="max-width: 400px;">
+            <!-- Imagen superior -->
+            <div class="text-center mb-4">
+                <img src="recursos/elzarapeLogo.png" alt="Avatar" class="rounded-circle" style="width: 100px; height: 100px;">
+            </div>
+            <!-- Formulario -->
+            <form>
+                <div class="mb-3">
+                    <label for="Email" class="form-label">Correo Electrónico</label>
+                    <input type="text" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Ingrese su correo">
+                    <div id="emailHelp" class="form-text">No compartas esta información con nadie.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="Password" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="Password" placeholder="Ingrese su contraseña">
+                </div>
+                <button type="button" class="btn btn-primary w-100" id="BtnRegistrar">Iniciar Sesión</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="modules/moduloLogin/controller_Login.js"></script>
+</body>
+</html>

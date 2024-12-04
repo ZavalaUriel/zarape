@@ -1,0 +1,57 @@
+[
+    {
+        "idAlimento":"1",
+        "nombreAlimento":"chilaquiles",
+        "categoria":"platillos",
+        "descripcion":"chilaquiles",
+        "foto":"elzarapeLogo.jpeg",
+        "precio":"80",
+        "estatus":"Activo"
+    },
+    {
+            "idAlimento": "2",
+            "nombreAlimento": "Tacos al Pastor",
+            "categoria": "Tacos",
+            "descripcion": "Tacos con carne de cerdo marinada, cocida en un trompo y servida con piña, cebolla y cilantro.",
+            "foto": "tacos_al_pastor.jpg",
+            "precio": "50",
+            "estatus": "Activo"
+    },
+    {
+            "idAlimento": "3",
+            "nombreAlimento": "Enchiladas Verdes",
+            "categoria": "Enchiladas",
+            "descripcion": "Tortillas rellenas de pollo cubiertas con salsa verde, crema y queso fresco.",
+            "foto": "enchiladas_verdes.jpg",
+            "precio": "80",
+            "estatus": "Activo"
+    },
+    {
+            "idAlimento": "4",
+            "nombreAlimento": "Chiles en Nogada",
+            "categoria": "Platillo Principal",
+            "descripcion": "Chiles poblanos rellenos de picadillo cubiertos con una salsa de nuez y espolvoreados con granada.",
+            "foto": "chiles_en_nogada.jpg",
+            "precio": "120",
+            "estatus": "Activo"
+    },
+    {
+            "idAlimento": "5",
+            "nombreAlimento": "Tamales",
+            "categoria": "Antojitos",
+            "descripcion": "Masa de maíz rellena de carne, verduras o chiles, envuelta en hojas de maíz y cocida al vapor.",
+            "foto": "tamales.jpg",
+            "precio": "30",
+            "estatus": "Activo"
+    },
+    {
+            "idAlimento": "6",
+            "nombreAlimento": "Pozole",
+            "categoria": "Sopa",
+            "descripcion": "Sopa espesa hecha con maíz hominy, carne de cerdo o pollo, y acompañada de rábanos, lechuga y orégano.",
+            "foto": "pozole.jpg",
+            "precio": "90",
+            "estatus": "Activo"
+    }
+    
+]

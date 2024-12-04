@@ -1,0 +1,26 @@
+[
+    {
+        "idUsuario":"1",
+        "nombreUsuario":"Uriel_243",
+        "contrasena":"uriel123",
+        "estatus":"Activo"
+    },
+    {
+        "idUsuario":"2",
+        "nombreUsuario":"Karla_mtz",
+        "contrasena":"karlamtz233",
+        "estatus":"Activo"
+    },
+    {
+        "idUsuario":"3",
+        "nombreUsuario":"ZavalaW",
+        "contrasena":"urielzavala",
+        "estatus":"Activo"
+    },
+    {
+        "idUsuario":"4",
+        "nombreUsuario":"JonaCoca",
+        "contrasena":"jona123",
+        "estatus":"Activo"
+    }
+]

@@ -1,0 +1,38 @@
+[    
+    {
+        "foto":"centromax.jpeg",
+        "numero_unico_sucursal":"1",
+        "nombre": "CentroMax", 
+        "calleYNum": "Blvd Aeropuerto 2518", 
+        "colonia" : "Jardines de Jerez ",
+        "telefono":"4881219101", 
+        "gps" : "566788,665433",
+        "horario" :"10-8",
+        "pagWeb":"www.centromax.com", 
+        "estatus": "Activo"
+    },
+    {
+        "foto":"altacia.jpeg",
+        "numero_unico_sucursal":"2",
+        "nombre": "Altacia", 
+        "calleYNum": "Blvd Aeropuerto 104", 
+        "colonia" : "Cerrito de Jerez",
+        "telefono":"4770000456", 
+        "gps" : "569888,665883",
+        "horario" :"10-8",
+        "pagWeb":"www.altacia.com", 
+        "estatus": "Activo"
+    },
+    {
+        "foto":"plazaMayor.jpeg",
+        "numero_unico_sucursal":"3",
+        "nombre": "Plaza Mayor", 
+        "calleYNum": "juan Alonso de torres 2002", 
+        "colonia" : "Valle del campestre",
+        "telefono":"4770000789", 
+        "gps" : "561238,6643283",
+        "horario" :"10-8",
+        "pagWeb":"www.plazamayor.com", 
+        "estatus": "Activo"
+    }
+]

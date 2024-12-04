@@ -1,0 +1,39 @@
+@import url('https://cdn-uicons.flaticon.com/2.5.1/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.5.1/uicons-solid-rounded/css/uicons-solid-rounded.css');
+.icon-circle {
+    width: 60px;          /* Tamaño del círculo */
+    height: 60px;         /* Tamaño del círculo */
+    background-color: rgb(255, 255, 255); /* Color de fondo blanco */
+    border-radius: 50%;  /* Forma circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Sombra para mejor visualización */
+}
+.icon-circle i {
+    font-size: 24px; /* Tamaño del icono */
+    color: black;     /* Color del icono */
+}
+
+.card-header, .card-footer {
+    background-color: #f8f9fa; /* Blanco claro */
+  }
+  .btn-success {
+    background-color: #28a745; /* Verde */
+    border-color: #28a745;
+  }
+  .btnCleanUsuario {
+    background-color: #fa812f; /* Azul */
+    border-color: #fa812f;
+  }
+  .btn-warning {
+    background-color: #ffc107; /* Naranja */
+    border-color: #ffc107;
+  }
+  .btn-danger {
+    background-color: #dc3545; /* Rojo */
+    border-color: #dc3545;
+  }
+  .btn-disabled {
+    opacity: 0.65;
+  }

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainContainer" style="-fx-background-color: #FEF3E2;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.luxdev.zarape.muestra_zarape.ControllerLogin">
+   <children>
+      <GridPane prefHeight="700.0" prefWidth="900.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="ALWAYS" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="200.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="-Infinity" prefWidth="800.0" />
+          <ColumnConstraints hgrow="ALWAYS" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="200.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="104.7658905029297" minHeight="10.0" prefHeight="104.7658905029297" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="478.83021240234365" valignment="CENTER" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="96.36978759765623" minHeight="10.0" prefHeight="96.36978759765623" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <AnchorPane style="-fx-background-color: #FAAF08;" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="681.6" prefWidth="370.4" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <ImageView fitHeight="250.0" fitWidth="250.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/elzarapeLogo.png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets left="60.0" right="60.0" top="50.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <Label text="¡Bienvenido!" textFill="#fa4032">
+                           <font>
+                              <Font name="Comic Sans MS Bold Italic" size="50.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="10.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label text="Usuario o correo electrónico:" textFill="#fef3e2">
+                           <font>
+                              <Font name="Comic Sans MS Bold Italic" size="15.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="10.0" top="10.0" />
+                           </VBox.margin>
+                        </Label>
+                        <TextField fx:id="txtNombreUsuario">
+                           <font>
+                              <Font name="Comic Sans MS" size="14.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <VBox.margin>
+                              <Insets bottom="20.0" left="150.0" right="150.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <Label text="Contraseña:" textFill="#fef3e2">
+                           <font>
+                              <Font name="Comic Sans MS Bold Italic" size="15.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </Label>
+                        <PasswordField fx:id="txtContrasenia">
+                           <font>
+                              <Font name="Comic Sans MS" size="14.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <VBox.margin>
+                              <Insets bottom="10.0" left="150.0" right="150.0" top="10.0" />
+                           </VBox.margin>
+                        </PasswordField>
+                        <HBox alignment="CENTER">
+                           <children>
+                              <ImageView fx:id="btnRegistrar" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@img/login.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets bottom="30.0" right="30.0" top="10.0" />
+                                 </HBox.margin>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </ImageView>
+                              <ImageView fx:id="btnSalir" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@img/logout.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets bottom="30.0" left="30.0" top="10.0" />
+                                 </HBox.margin>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </ImageView>
+                           </children>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="100.0" top="100.0" />
+               </GridPane.margin>
+            </AnchorPane>
+         </children>
+      </GridPane>
+   </children>
+   <padding>
+      <Insets bottom="50.0" left="200.0" right="200.0" top="50.0" />
+   </padding>
+</AnchorPane>

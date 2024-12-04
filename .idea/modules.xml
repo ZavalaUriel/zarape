@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/03_ProyectoWeb.iml" filepath="$PROJECT_DIR$/.idea/03_ProyectoWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zarape_controller/zarape_controller.iml" filepath="$PROJECT_DIR$/zarape_controller/zarape_controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zarape_model/zarape_model.iml" filepath="$PROJECT_DIR$/zarape_model/zarape_model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zarape_web/zarape_web.iml" filepath="$PROJECT_DIR$/zarape_web/zarape_web.iml" />
+    </modules>
+  </component>
+</project>

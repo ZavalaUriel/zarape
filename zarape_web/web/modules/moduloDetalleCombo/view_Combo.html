@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>combos</title>
+    <link href="style/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="style/css/mycss.css" rel="stylesheet" type="text/css" />
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.5.1/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.5.1/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Columna de botones -->
+            <div class="col-lg-4">
+                <div class="card text-center mb-3">
+                    <div class="card-header">
+                        Gestión de combos
+                    </div>
+                    <div class="card-body" style="background-color: white;">
+                        <div class="d-flex flex-column justify-content-between" style="height: 100%;">
+                            <div class="d-flex flex-column">
+                                <button class="mt-2 btn btn-lg" id="btnAddCombo"
+                                    style="background-color: #faaf08;">Registrar</button>
+                                <button class="mt-2 btn btn-lg" id="btnCleanCombo"
+                                    style="background-color: #faaf08;">Limpiar</button>
+                                <button class="mt-2 btn btn-lg disabled" id="btnUpdateCombo"
+                                    style="background-color: #faaf08;">Actualizar</button>
+                                <button class="mt-2 btn btn-lg disabled" id="btnDeleteCombo"
+                                    style="background-color: #faaf08;">Eliminar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer text-muted">
+                    </div>
+                </div>
+            </div>
+            <!-- Columna de formulario -->
+            <div class="col-lg-8">
+                <div id="contenedorPrincipal">
+                    <div class="card">
+                        <div class="card-body bg-light">
+                            <form>
+                                <div class="form-group row">
+                                    <label for="txtIdAlimento-Combo" class="col-sm-4 col-form-label rounded"
+                                        style="background-color: #fa812f;">Id Alimento:</label>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="txtIdAlimento-Combo" placeholder="1"
+                                            style="background-color: bisque;">
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="form-group row">
+                                    <label for="txtIdBebida-Combo" class="col-sm-4 col-form-label rounded"
+                                        style="background-color: #fa812f;">Id bebida:</label>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="txtIdBebida-Combo" placeholder="1"
+                                            style="background-color: bisque;">
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="form-group row">
+                                    <label for="txtIdCombo" class="col-sm-4 col-form-label rounded"
+                                        style="background-color: #fa812f;">Id Combo:</label>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="txtIdCombo" placeholder="1"
+                                            style="background-color: bisque;">
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="form-group row">
+                                    <label for="txtNombreCombo" class="col-sm-4 col-form-label rounded"
+                                        style="background-color: #fa812f;">Nombre Combo: </label>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="txtNombreCombo"
+                                            placeholder="nombre combo" style="background-color: bisque;">
+                                    </div>
+                                </div>
+                                <br>
+                                <br>
+                                <div class="form-group row">
+                                    <label for="txtDescripcionCombo" class="col-sm-4 col-form-label rounded"
+                                        style="background-color: #fa812f;">Descripción: </label>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="txtDescripcionCombo"
+                                            placeholder="descripción" style="background-color: bisque;">
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="form-group row">
+                                    <label for="numPrecioCombo" class="col-sm-4 col-form-label rounded"
+                                        style="background-color: #fa812f;">Precio</label>
+                                    <div class="col-sm-8">
+                                        <input type="numero" class="form-control" id="numPrecioCombo"
+                                            placeholder="100.50" style="background-color: bisque;">
+                                    </div>
+                                </div>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="card col-lg-12 p-4 mt-4">
+                    <div class="d-flex m-3">
+                        <label for="txtBusquedaCombo" class="form-label mx-3">Buscar Combo:</label>
+                        <input type="text" id="txtBusquedaCombo" class="form-control" />
+                        <button class="btn btn-warning mx-2" id="btnBusquedaCombo">Buscar</button>
+                    </div>
+                    <table class="table table-hover bg-warning">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>id Alimento</th>
+                                <th>id Bebida</th>
+                                <th>id Combo</th>
+                                <th>nombre combo</th>
+                                <th>descripcion</th>
+                                <th>precio</th>
+                                <th>estatus</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tblCombo"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div> 
+    <script src="style/js/main.js" type="text/javascript"></script>
+    <script src="controller_Combo.js"></script>
+</body>
+</html>
